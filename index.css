@@ -1,0 +1,32 @@
+#jobTitle{
+    color: inherit;
+    font-size: 2rem;
+    text-decoration: 0.4px solid underline;
+
+}
+#breifDescription{
+    font-size: 1.1rem;
+
+}
+
+.detailDescription
+{
+    width: 50%;
+}
+
+.experience{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+    float: inline-end;
+}
+
+
+.experienceDate{
+    display: flex;
+}
+.experienceDescriptionAndTitle
+{
+    display: flex;
+}
