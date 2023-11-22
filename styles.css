@@ -2,7 +2,7 @@
     background-color: rgb(15, 23, 42);
     margin: 0;
     padding: 0;
-    color: rgb(255, 255, 255);
+    color: #94a3b8;
     font-size: 16px;
 }
 
@@ -10,24 +10,31 @@ h1{
     font-size: 3rem;
 }
 
-.container{
-
-    margin: 10% auto;
-    text-align: center;
-    width: 70%;
+.p-white-color
+{
+    color: rgb(255, 255, 255);
 }
-main{
+
+.margin-top{
+    margin-top: 0.75rem;
+}
+
+.container{
+    margin: 8% 9%;
+    text-align: center;
+}
+.main{
     display: flex;
     padding: 1rem;
-    width: 100%;
     text-align: justify;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 
 .mainNav{
     position: fixed;
     display: block;
     padding: 1rem;
+    text-align: justify;
 }
 
 .mainNav a{
@@ -38,4 +45,15 @@ main{
     text-transform: uppercase;
     letter-spacing: 3px;
 
+}
+
+.hide-list-bullet-points{
+    list-style: none;
+}
+#tools-ul-lists-style > li
+{
+    color:rgb(94 234 212);
+    background-color:rgba(94, 234, 212, 0.2);
+    border-radius: 1rem;
+    padding: 0.55rem;
 }

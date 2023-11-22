@@ -1,32 +1,58 @@
-#jobTitle{
-    color: inherit;
-    font-size: 2rem;
+#job-title{
+    font-size: 1.6rem;
     text-decoration: 0.4px solid underline;
 
 }
 #breifDescription{
-    font-size: 1.1rem;
+
+    max-width: 20rem;
+    line-height: 1.5;
 
 }
 
 .detailDescription
 {
-    width: 50%;
+    flex-basis: 50%;
+    font-size: 2rem;
+    
 }
 
-.experience{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 50%;
-    float: inline-end;
+.name-JobTitle
+{
+    flex-basis: 50%;
 }
+#name{
+    color:rgb(255 255 255);
+}
+
+.col-grid{
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(8,minmax(0,1fr));
+    margin: 20% 2% 0% 40%;
+}
+
+.flex-list{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
 
 
 .experienceDate{
-    display: flex;
+    text-align: justify;
+    grid-column: span 2/span 2;
+   
 }
 .experienceDescriptionAndTitle
 {
-    display: flex;
+    text-align: justify;
+    flex-basis: 50%;
+    grid-column: span 6/span 6;
+   
 }
