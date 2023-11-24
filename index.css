@@ -29,7 +29,7 @@
     display: grid;
     gap: 1.5rem;
     grid-template-columns: repeat(8,minmax(0,1fr));
-    margin: 20% 2% 0% 40%;
+    margin-top: 20%;
 }
 
 .flex-list{
@@ -55,4 +55,39 @@
     flex-basis: 50%;
     grid-column: span 6/span 6;
    
+}
+
+
+.relative{
+    position: absolute;
+}
+
+.profile-image-div{
+    width: 236px;
+    height: 236px;
+    margin-bottom: 3rem;
+}
+.profile-image{
+    max-height:223px;
+    width: 50%;
+    height: 33%;
+    
+}
+.box-shadow{
+    position: absolute;
+    z-index: 1;
+
+}
+
+.profile-image-div::after{
+    content: "";
+    border: 2px solid rgb(94 234 212);
+    width: 50%;
+    height: 32%;
+    display: block;
+    margin-left: 10px;
+    margin-top: 10px;
+    position: absolute;
+    z-index: 0;
+
 }
