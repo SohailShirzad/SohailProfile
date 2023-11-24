@@ -5,6 +5,7 @@
     color: rgb(148 163 184);
     font-size: 16px;
     text-decoration: none;
+    
 }
 .scroll-smoot{
     scroll-behavior: smooth;
@@ -33,33 +34,15 @@ h1{
     width: 30px;
     height: 30px;
 }
-.profile-image-div{
-    width: 236px;
-    height: 236px;
-}
-.profile-image{
-    max-height:223px;
-    width: 50%;
-    height: 33%;
-    
-}
-.box-shadow{
-    position: absolute;
-    z-index: 1;
 
+.mobile-header-title-only{
+    display: none;
 }
 
-.profile-image-div::after{
-    content: "";
-    border: 2px solid rgb(94 234 212);
-    width: 50%;
-    height: 32%;
-    display: block;
-    margin-left: 10px;
-    margin-top: 10px;
-    position: absolute;
-    z-index: 0;
-
+.mobile-title-desgin{
+    font-size: 2rem;
+    font-family: inherit;
+    padding-bottom: 0.75rem;
 }
 
 
@@ -203,5 +186,50 @@ body{
  ::-webkit-scrollbar-thumb:hover{
     background-color: rgb(94 234 212);
  }
+ ::selection{
+    background-color:rgba(94, 234, 212, 1);
+    color: rgb(0,0,0);
+ }
+
+
+ /* Media queries for responsive desgin */
+
+ @media (max-width: 42rem)
+ {
+
+    .container{
+        display: block;
+    }
+    header{
+        display: block;
+        width: 100%;
+        text-align: justify;
+        height: auto;
+
+
+    }
+
+    .sticky-position{
+        position: relative;
+    }
+    
+    .mainNav{
+        display: none;
+    }
+
+    .main{
+        display: block;
+    }
+    .mobile-header-title-only{
+        display: block;
+        
+    }
+    
+
+   
+    
+
+ }
+    
 
 

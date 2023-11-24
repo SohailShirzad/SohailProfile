@@ -20,6 +20,7 @@
 .name-JobTitle
 {
     flex-basis: 50%;
+    min-width: max-content;
 }
 #name{
     color:rgb(255 255 255);
@@ -91,3 +92,65 @@
     z-index: 0;
 
 }
+
+
+/* Media queries for responsive design */
+
+@media (max-width: 42rem)
+{
+    .focus{
+        display: none;
+    }
+
+    .profile-image-div{
+        width: 11.5rem;
+        height: 11.5rem;
+        margin-top:2.5rem;
+        min-width: 11.5rem;
+        min-height: 11.5rem;
+       
+    }
+
+    .profile-image-div::after{
+        width: 30%;
+        height: 32%;
+        min-height: inherit;
+        min-width: inherit;
+    
+    }
+
+    .profile-image{
+        max-width: 30%;
+        max-height: 30%;
+        min-width: inherit;
+        min-height: inherit;
+       
+    }
+
+
+    
+    #breifDescription{
+        line-height: 1.5;
+        margin-top: 2rem;
+    }
+
+    .name-JobTitle
+    {
+        margin: 0 0.5rem;
+    }
+
+    .col-grid{
+        display: block;
+    }
+    .experienceDate{
+        margin-bottom: 0.65rem;
+    }
+    .experienceDescriptionAndTitle{
+        text-align: left;
+    }
+
+   
+}
+    
+
+    
