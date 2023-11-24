@@ -1,20 +1,19 @@
-#job-title{
-    font-size: 1.6rem;
-    text-decoration: 0.4px solid underline;
-
-}
-#breifDescription{
-
-    max-width: 20rem;
-    line-height: 1.5;
-
-}
-
 .detailDescription
 {
     flex-basis: 50%;
     font-size: 2rem;
+   
     
+}
+
+
+#breifDescription{
+
+    max-width: 20rem;
+    line-height: 1.5;
+    opacity: 0;
+    animation: scale-in-from-Y 1s 4s ease-in-out forwards;
+
 }
 
 .name-JobTitle
@@ -22,8 +21,24 @@
     flex-basis: 50%;
     min-width: max-content;
 }
+#job-title{
+    font-size: 1.6rem;
+    text-decoration: 0.4px solid underline;
+    opacity: 0;
+    animation: fade-in 1s ease-in 3s forwards;
+
+}
+#hi{
+    color:rgb(94 234 212);
+    animation: scale-in-from-Y 1s ease-in-out;
+}
+
 #name{
     color:rgb(255 255 255);
+    opacity: 0;
+    animation: scale-in 2s ease-in 1s forwards;
+
+
 }
 
 .col-grid{
@@ -67,6 +82,8 @@
     width: 236px;
     height: 236px;
     margin-bottom: 3rem;
+    opacity: 0;
+    animation: fade-in 6s 4s ease-in-out forwards;
 }
 .profile-image{
     max-height:223px;
@@ -93,6 +110,53 @@
 
 }
 
+ /* Animations */
+
+ @keyframes scale-in{
+
+    0% {
+        transform: translate(7rem);
+        opacity: 0;
+    }
+
+    50%{
+        transform: scale(1.5);
+    }
+
+    100%{
+        transform: translate(0);
+        opacity: 1;
+
+    }
+
+ }
+
+ @keyframes scale-in-from-Y {
+
+    from{
+        transform:translateY(1em);
+        opacity: 0;
+
+    }
+    to{
+        opacity: 1;
+    }
+    
+ }
+
+ @keyframes fade-in {
+
+    from{
+        
+        opacity: 0;
+
+    }
+
+    to{
+        opacity: 1;
+    }
+    
+ }
 
 /* Media queries for responsive design */
 

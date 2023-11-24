@@ -11,6 +11,11 @@
     scroll-behavior: smooth;
 }
 
+.transition{
+    transition:step-start 2s ease-in ;
+    
+}
+
 h1{
     font-size: 3rem;
 }
@@ -19,13 +24,13 @@ h1{
 {
     color: rgb(255, 255, 255);
 }
-#hi{
-    color:rgb(94 234 212);
-}
 
 .svg > svg{
     width: 20px;
     height: 20px;
+    opacity: 0;
+    animation: translate-from-Y 2s ease-in 4s forwards;
+    
 }
 
 .svg > svg:hover{
@@ -69,6 +74,8 @@ h1{
 
 .flex{
     display: flex;
+    
+    
 }
 .gap{
     gap: 2rem;
@@ -97,11 +104,15 @@ header{
     flex-basis: 50%;
     text-align: justify;
     justify-content: flex-start;
+    opacity: 0;
+    animation: translate-from-Y 2s ease-in 4s forwards;
 }
 
 .mainNav{
     padding: 1rem;
     text-align: justify;
+    opacity: 0;
+    animation: translate-from-Y 2s ease-in 4s forwards;
 }
 
 .mainNav a{
@@ -190,6 +201,22 @@ body{
     background-color:rgba(94, 234, 212, 1);
     color: rgb(0,0,0);
  }
+
+ @keyframes translate-from-Y {
+
+    from{
+        transform:translateY(1em);
+        opacity: 0;
+
+    }
+
+    to{
+        opacity: 1;
+    }
+    
+ }
+
+
 
 
  /* Media queries for responsive desgin */
