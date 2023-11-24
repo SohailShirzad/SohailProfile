@@ -1,0 +1,235 @@
+*{
+    background-color: rgba(15, 23, 42, 10);
+    margin: 0;
+    padding: 0;
+    color: rgb(148 163 184);
+    font-size: 16px;
+    text-decoration: none;
+    
+}
+.scroll-smoot{
+    scroll-behavior: smooth;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+.p-white-color
+{
+    color: rgb(255, 255, 255);
+}
+#hi{
+    color:rgb(94 234 212);
+}
+
+.svg > svg{
+    width: 20px;
+    height: 20px;
+}
+
+.svg > svg:hover{
+    background-color: rgba(148, 163, 184,0.6);
+    padding-top: 20%;
+    width: 30px;
+    height: 30px;
+}
+
+.mobile-header-title-only{
+    display: none;
+}
+
+.mobile-title-desgin{
+    font-size: 2rem;
+    font-family: inherit;
+    padding-bottom: 0.75rem;
+}
+
+
+.margin-top{
+    margin-top: 0.75rem;
+}
+
+.container{
+
+    text-align: center;
+    align-items: flex-start;
+    max-width: 1200px;
+}
+
+.max-width-screen-x1{
+    max-width: 1200px;
+}
+
+.max-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.flex{
+    display: flex;
+}
+.gap{
+    gap: 2rem;
+}
+
+header{
+    flex-direction: column;
+    text-align: justify;
+    height: 80vh;
+    max-height: 100vh;
+}
+
+.space-between
+{
+    justify-content: space-between;
+}
+
+.sticky-position{
+    position: sticky;
+    z-index: 0;
+    top:8%;
+}
+
+.main{
+    padding: 1rem;
+    flex-basis: 50%;
+    text-align: justify;
+    justify-content: flex-start;
+}
+
+.mainNav{
+    padding: 1rem;
+    text-align: justify;
+}
+
+.mainNav a{
+    padding: 0.5rem;
+    display: block;
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+
+}
+
+.hide-list-bullet-points{
+    list-style: none;
+}
+#tools-ul-lists-style > li
+{
+    color:rgb(94 234 212);
+    background-color:rgba(94, 234, 212, 0.2);
+    border-radius: 1rem;
+    padding: 0.55rem;
+}
+body{
+    height: max-content;
+}
+
+.cv-attachment
+{
+    width: max-content;
+    margin-top: 1.5rem;
+}
+
+.font-one-point-five-rem{
+    font-size: 1.5rem;
+}
+
+.focus
+{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 190vh;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto;
+   
+}
+
+.gap-top{
+    margin: 8% 6%;
+}
+.pointer-events-none{
+    pointer-events: none;
+}
+.inset-0{
+    inset: 0;
+}
+
+ /*This is to change scroll-bar to something more fancy*/
+
+ 
+ ::-webkit-scrollbar
+ {
+    width: 10px;
+ }
+
+ /*this is for the track*/
+ ::-webkit-scrollbar-track
+ {
+    box-shadow: inset 0 0 5px cyan;
+    border-radius: 10px;
+ }
+
+ /* Handle desgin */
+
+ ::-webkit-scrollbar-thumb{
+    background-color: rgba(94, 234, 212, 0.6);
+    border-radius: 10px;
+ }
+
+ ::-webkit-scrollbar-thumb:hover{
+    background-color: rgb(94 234 212);
+ }
+ ::selection{
+    background-color:rgba(94, 234, 212, 1);
+    color: rgb(0,0,0);
+ }
+
+
+ /* Media queries for responsive desgin */
+
+ @media (max-width: 42rem)
+ {
+
+    .container{
+        display: block;
+    }
+    header{
+        display: block;
+        width: 100%;
+        text-align: justify;
+        height: auto;
+
+
+    }
+
+    .sticky-position{
+        position: relative;
+    }
+    
+    .mainNav{
+        display: none;
+    }
+
+    .main{
+        display: block;
+    }
+    .mobile-header-title-only{
+        display: block;
+        
+    }
+    
+
+   
+    
+
+ }
+    
+
+
