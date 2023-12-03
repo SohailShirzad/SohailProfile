@@ -5,7 +5,7 @@ This will be used for my personal website.
 HTML, CSS, JavaScirpt, Microsoft Visual Studio
 
 ## Requirement
-No installation is needed. This works on PCs, Laptops, iPads, and mobile phones using any browesers (Chrome, Edge, Safari).
+No installation is required. This website works on PCs, Laptops, iPads, and all smart phones and different browesers (Chrome, Edge, Safari).
 
 
 

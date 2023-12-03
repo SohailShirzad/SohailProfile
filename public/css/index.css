@@ -1,83 +1,31 @@
-.detailDescription
-{
-    flex-basis: 50%;
-    font-size: 2rem;
-   
-    
+#hi{
+    color:rgb(94 234 212);
+    animation: scale-in-from-Y 1s ease-in-out;
 }
-
-
-#breifDescription{
-
-    max-width: 20rem;
-    line-height: 1.5;
-    opacity: 0;
-    animation: scale-in-from-Y 1s 4s ease-in-out forwards;
-
-}
-
 .name-JobTitle
 {
     flex-basis: 50%;
     min-width: max-content;
+}
+#name{
+    color:rgb(255 255 255);
+    opacity: 0;
+    animation: scale-in 2s ease-in 1s forwards;
 }
 #job-title{
     font-size: 1.6rem;
     text-decoration: 0.4px solid underline;
     opacity: 0;
     animation: fade-in 1s ease-in 3s forwards;
-
-}
-#hi{
-    color:rgb(94 234 212);
-    animation: scale-in-from-Y 1s ease-in-out;
 }
 
-#name{
-    color:rgb(255 255 255);
+#breifDescription{
+    max-width: 20rem;
+    line-height: 1.5;
     opacity: 0;
-    animation: scale-in 2s ease-in 1s forwards;
-
+    animation: scale-in-from-Y 1s 4s ease-in-out forwards;
 
 }
-
-.col-grid{
-    display: grid;
-    gap: 1.5rem;
-    grid-template-columns: repeat(8,minmax(0,1fr));
-    margin-top: 20%;
-}
-
-.flex-list{
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-}
-
-.flex-wrap{
-    flex-wrap: wrap;
-}
-
-
-
-.experienceDate{
-    text-align: justify;
-    grid-column: span 2/span 2;
-   
-}
-.experienceDescriptionAndTitle
-{
-    text-align: justify;
-    flex-basis: 50%;
-    grid-column: span 6/span 6;
-   
-}
-
-
-.relative{
-    position: absolute;
-}
-
 .profile-image-div{
     width: 236px;
     height: 236px;
@@ -94,7 +42,6 @@
 .box-shadow{
     position: absolute;
     z-index: 1;
-
 }
 
 .profile-image-div::after{
@@ -109,6 +56,67 @@
     z-index: 0;
 
 }
+.svg > svg{
+    width: 20px;
+    height: 20px;
+    opacity: 0;
+    animation: translate-from-Y 2s ease-in 4s forwards;
+    
+}
+
+.svg > svg:hover{
+    background-color: rgba(148, 163, 184,0.6);
+    padding-top: 20%;
+    width: 30px;
+    height: 30px;
+}
+.detailDescription
+{
+    flex-basis: 50%;
+    font-size: 2rem;
+}
+
+.col-grid{
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(8,minmax(0,1fr));
+    margin-top: 20%;
+}
+.experienceDate{
+    text-align: justify;
+    grid-column: span 2/span 2;
+}
+.experienceDescriptionAndTitle
+{
+    text-align: justify;
+    flex-basis: 50%;
+    grid-column: span 6/span 6;
+   
+}
+.tools-ul-lists-style > li
+{
+    color:rgb(94 234 212);
+    background-color:rgba(94, 234, 212, 0.2);
+    border-radius: 1rem;
+    padding: 0.55rem;
+}
+
+.cv-attachment
+{
+    width: max-content;
+    margin-top: 1.5rem;
+}
+
+.flex-list{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.flex-wrap{flex-wrap: wrap;}
+
+.relative{position: absolute;}
+
 
  /* Animations */
 
@@ -215,6 +223,3 @@
 
    
 }
-    
-
-    
