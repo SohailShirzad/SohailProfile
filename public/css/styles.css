@@ -21,7 +21,7 @@
     position: absolute;
     z-index: 1;
     width: 100%;
-    height: 190vh;
+    height: 230vh;
     left: 0; 
     right: 0; 
     margin-left: auto; 
@@ -40,8 +40,6 @@ h1{font-size: 3rem;}
 header{
     flex-direction: column;
     text-align: justify;
-    height: 80vh;
-    max-height: 100vh;
 }
 
 .container{

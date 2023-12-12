@@ -27,9 +27,7 @@
 
 }
 .profile-image-div{
-    width: 236px;
-    height: 236px;
-    margin-bottom: 3rem;
+    height: 200px;
     opacity: 0;
     animation: fade-in 6s 4s ease-in-out forwards;
 }
@@ -107,6 +105,18 @@
     margin-top: 1.5rem;
 }
 
+.contact-section{margin-top: 4rem;}
+
+.contact-title{font-size: 2rem; margin-bottom: 1rem;}
+
+.contact-email-button{
+    color:rgb(94 234 212);
+    border: 1px solid rgb(94 234 212);
+    border-radius: 1rem;
+    padding: 0.55rem;
+    
+
+}
 .flex-list{
     display: flex;
     align-items: center;
