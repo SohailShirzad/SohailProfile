@@ -27,7 +27,7 @@
 
 }
 .profile-image-div{
-    height: 200px;
+    height: 219px;
     opacity: 0;
     animation: fade-in 6s 4s ease-in-out forwards;
 }
