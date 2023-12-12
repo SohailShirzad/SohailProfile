@@ -91,12 +91,17 @@
     grid-column: span 6/span 6;
    
 }
+
 .tools-ul-lists-style > li
 {
     color:rgb(94 234 212);
     background-color:rgba(94, 234, 212, 0.2);
     border-radius: 1rem;
     padding: 0.55rem;
+}
+
+.mainNav a:hover{
+    color: rgb(94 234 212);
 }
 
 .project-links-design{
@@ -111,6 +116,8 @@
 }
 
 .contact-section{margin-top: 4rem;}
+
+.contact-section a:hover{background-color: rgba(148, 163, 184,0.6);}
 
 .contact-title{font-size: 2rem;}
 
