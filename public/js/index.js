@@ -15,6 +15,8 @@ if(  document.addEventListener("mousemove", function(mouseHover)
 else{
     mouseFocus.style.background = "rgba(94, 234, 212, 0.1)";
 }
+
+var height = document.querySelector("body");
+var focus = document.querySelector(".focus");
+focus.style.height = height.offsetHeight + "px";
   
-
-
