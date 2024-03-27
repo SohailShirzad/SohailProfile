@@ -110,15 +110,15 @@ header{
     flex-basis: 50%;
     text-align: justify;
     justify-content: flex-start;
-    opacity: 0;
-    animation: translate-from-Y 2s ease-in 4s forwards;
+    opacity: 1;
+    /* animation: translate-from-Y 2s ease-in 4s forwards; */
 }
 
 .mainNav{
     padding: 1rem;
     text-align: justify;
-    opacity: 0;
-    animation: translate-from-Y 2s ease-in 4s forwards;
+    opacity: 1;
+    /* animation: translate-from-Y 2s ease-in 4s forwards; */
 }
 
 .mainNav a{
@@ -171,7 +171,7 @@ header{
     color: rgb(0,0,0);
  }
 
- @keyframes translate-from-Y {
+ /* @keyframes translate-from-Y {
 
     from{
         transform:translateY(1em);
@@ -183,7 +183,7 @@ header{
         opacity: 1;
     }
     
- }
+ } */
 
 
  /* Media queries for responsive desgin */
